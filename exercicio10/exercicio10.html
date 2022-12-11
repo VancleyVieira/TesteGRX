@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <title>Desafio GRX</title>
+   </head>
+   <body>
+      <h1>Questão numero 10 Desafio GRX</h1>
+      <script>
+         let inteiros = [1,2,3,4,5,6,7,8,9,10] // Array de inteiros
+
+         //Está linha cria uma arrow function com parametro array de inteiros que é percorrido utilizando forEach
+         inteiros.forEach((inteiros) => {
+            // Está linha filtra os numeros cujo resto da divisão por 2 seja igual a 0 ou seja numeros pares 
+            if(inteiros % 2 == 0) {
+               console.log(inteiros) // Retorna: 2 4 6 8 10
+            }
+         })
+      </script>
+   </body>
+</html>

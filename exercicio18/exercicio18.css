@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 20px 0;
+}
+header {
+    height: 150px;
+}
+footer {
+    height: 100px;
+}
+label, h2{
+    color: #fff;
+}
+BODY {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 49%, rgba(9,9,121,1) 100%);
+}
